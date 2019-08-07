@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Alex Zholob
+bio: A Man who travels the world drinking tomato juice
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -8,12 +8,12 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/test.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
 url: https://koppl.in/indigo
@@ -30,28 +30,28 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+    shortname: mydisqus # enter this from your disqus account
+    categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+#twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: alex-zholob
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: JohnGaltt
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: alexzholob
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: oleksandr.zholob@gmail.com
 
 authors:
     johndoe:
@@ -102,11 +102,11 @@ show-author: true
 animation: true
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-admin
 
 jekyll-mentions:
     base_url: https://github.com
@@ -114,7 +114,8 @@ jekyll-mentions:
 compress_html:
     ignore:
         envs:
-        - development
-        - stage
+            - development
+            - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude:
+    ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
