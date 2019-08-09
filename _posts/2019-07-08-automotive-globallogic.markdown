@@ -13,22 +13,23 @@ author: alexzholob
 externalLink: false
 ---
 
-I was working as a Full Stack developer in a team of 6 members different positions(PM, Designer, QA, .NET) That was my second project in a great company <b> <a href="https://perfectial.com/">Perfectial </a> </b>
+TBD
 
-I was a part of team building<strong> solution </strong> for commercial real estate it's CRM, financial analysis and reporting and listing all wrapped into one.
-
-Designing, building complex isolated parts of the web application using ASP.NET MVC MS SQL.
-Profiling, optimizing execution plan, performance.
-Reverse engineering existing solutions and fixing them.
+Interviewing new candidates, reviewing CV, etc. 
+Building microservices with Docker&k8s, ASP.NET Core, Serilog logs
+Creating fully automated CI/CD pipelines for existing and created from scratch solutions Jenkins, az cli, kubectl.
+Planning, design, estimation, implementation, testing, maintenance of own code as well as others. Code reviews.
 
 ---
 
 Tech stack:
 
-- <b>JQuery</b>
-- <b>ASP.NET MVC</b>
-- <b>Javascript</b>                          
-- <b>HTML & CSS</b>
-- <b>MS SQL</b>
-- <b>Angular JS</b>
-- <b>Entity Framework</b>
+- <b>ASP.NET CORE</b>
+- <b>EF Core</b>
+- <b>MSSQL, PostgresQL</b>                          
+- <b>Azure Service Bus, RabbitMQ, Application Insights, Azure Storages</b>
+- <b>Docker, Kubernetes, CI/CD (Jenkins)</b>
+- <b>Authentication/Authorization with Identity Server, OpenIddict, custom JWT tokens.</b>
+- <b>DDD, Microservices</b>
+- <b>Baget Packages</b>
+- <b>Monitoring  with Jaeger, Prometheus + Grafana</b>
